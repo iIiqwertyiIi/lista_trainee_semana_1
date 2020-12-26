@@ -146,4 +146,8 @@ class Jogo_de_Poker
     @bet = 0
     @table_cards = []
   end
+
+  attr_reader :players
+  attr_reader :bet
+  attr_reader :stage
 end
